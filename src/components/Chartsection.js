@@ -41,7 +41,10 @@ class Chartsection extends Component {
                               reset: false | '<img src="/static/icons/reset.png" width="20">',
                               customIcons: []
                             }
-                        }
+                        },
+                        sparkline: {
+                            enabled: true
+                          }
                         
                     },
                     grid: {
@@ -117,7 +120,7 @@ class Chartsection extends Component {
                 </div>
 
                  <div>
-                     <div id="chart">
+                     <div id="chart" style={{border:'1px solid #efefef'}}>
                          <div className="toolbar">
                              <button id="one_month"
 
